@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thị trường Crypto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="../styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Thị trường</a>
+        <a href="#">Giao dịch</a>
+        <a href="#">Danh mục</a>
+        <a href="#">Phí giao dịch</a>
+    </div>
+
+    <h2 style="text-align: center;">Thị trường Futures</h2>
+	<div class="filter">
+        <button class="filter-button">Tất cả</button>
+        <button class="filter-button">Tăng trưởng</button>
+        <button class="filter-button">Giảm giá</button>
+    </div>
+
+    <div class="search">
+        <input type="text" class="search-box" placeholder="Tìm kiếm cặp tiền...">
+    </div>
+    <table class="market-table">
+        <thead>
+            <tr>
+                <th>Cặp</th>
+                <th>Giá</th>
+                <th>Biến động 24h</th>
+                <th>Khối lượng 24h</th>
+                <th>Giao dịch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BTC/VNDC</td>
+                <td>1,975,634,401</td>
+                <td class="negative">-3.62%</td>
+                <td>3,392.60 tỷ</td>
+                <td><button class="btn-trade">Giao dịch</button></td>
+            </tr>
+            <tr>
+                <td>PI/VNDC</td>
+                <td>34,318</td>
+                <td class="positive">+2.86%</td>
+                <td>861.29 tỷ</td>
+                <td><button class="btn-trade">Giao dịch</button></td>
+            </tr>
+            <tr>
+                <td>ETH/VNDC</td>
+                <td>50,205,120</td>
+                <td class="negative">-3.05%</td>
+                <td>360.98 tỷ</td>
+                <td><button class="btn-trade">Giao dịch</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
